@@ -22,6 +22,10 @@ public class Main {
         pojazd.kolor = KolorEnum.CZERMONY;
         pojazdList.add(pojazd);
 
+        /* Wyświetlenie moetody toString() na objekcie pojazd
+        * Można tą metodę nadpisać, w kolejnym przykładzie pokżę jak, więc proszę to zapamiętać */
+        System.out.println(pojazd.toString()); // Pojazd@7229724f (wyświetla adres objektu pojazd)
+
         for (Pojazd p : pojazdList) {
             System.out.println(p.nazwa + " - " + p.iloscKol + " - " + p.kolor);
         }
