@@ -56,4 +56,15 @@ public class Punkt {
         System.out.println("Zmieniono zmienną " + znak);
     }
 
+    /* @Override oznacza jawne nadpisywanie metod / klas
+    * tu nadpisujemy metodę toString, która zmienia zmienną na tekst */
+
+    @Override
+    public String toString() {
+        return "Punkt{" +
+                "x=" + x +
+                ", y=" + y +
+                ", znak=" + znak +
+                '}';
+    }
 }

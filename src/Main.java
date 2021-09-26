@@ -23,5 +23,9 @@ public class Main {
 
         p2.setY(13); // przypisanie nowej wartości do zmiennej Y i wywołanie prywatnej metody w klasie Punkt
         p2.wyswietl(); // wywołanie metody z klasy
+
+        /* wyświetlenie metody toString na objekcie p2 */
+        System.out.println(p2.toString());
+
     }
 }
