@@ -10,6 +10,7 @@ public class Main {
         /* najprostsze użycie klas */
         List<Pojazd> pojazdList = new ArrayList<>();
 
+        /* Deklaracja z inicjalizacją pola 'pojazd' typem Pojazd */
         Pojazd pojazd = new Pojazd();
         pojazd.kolor = KolorEnum.NIEBIESKI;
         pojazd.iloscKol = 4;
