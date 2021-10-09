@@ -14,13 +14,15 @@ public class Punkt {
         this.y = y;
     }
 
-    /* przeładowanie konstruktorów - wiele konstruktorów z inną liczbą parametrów lub różnymi typami*/
+    /* przeładowanie konstruktorów - wiele konstruktorów
+    z inną liczbą parametrów lub różnymi typami*/
     Punkt(int x, int y, int z) {
         this.x = x;
         this.y = y + z;
     }
 
-    /* gettery - metody umożliwiający pośredni dostęp do zmiennych */
+    /* gettery - metody umożliwiające
+    pośredni dostęp do zmiennych */
     public int getX() {
         return x;
     }
@@ -57,7 +59,7 @@ public class Punkt {
     }
 
     /* @Override oznacza jawne nadpisywanie metod / klas
-    * tu nadpisujemy metodę toString, która zmienia zmienną na tekst */
+     * tu nadpisujemy metodę toString, która zmienia zmienną na tekst */
 
     @Override
     public String toString() {
