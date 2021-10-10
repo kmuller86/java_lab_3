@@ -3,6 +3,9 @@ public class Main {
     public static void main(String[] args) {
         /* przyklad 4 klasy */
 
+        /* Polecam zakomentować cały kod z main i odkomentowywać kolejne linie programu
+         * aby lepiej zrozumieć działanie klas */
+
         /* Deklaracja i inicjalizowanie objektu klasy ObjektPunktu pustymi wartościami */
         ObjektPunktu objektPunktu = new ObjektPunktu();
         System.out.println(objektPunktu.toString()); // ObjektPunktu{punkt=null, z=0}
