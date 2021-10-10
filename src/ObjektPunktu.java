@@ -6,6 +6,8 @@ public class ObjektPunktu {
 
     /* Pusty konstruktor */
     public ObjektPunktu() {
+        this.punkt = new Punkt(0, 0);
+        this.z = 0;
     }
 
     /* Konstruktor z parametrami */

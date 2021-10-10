@@ -4,6 +4,8 @@ public class Punkt {
 
     /* konstruktory */
     public Punkt() {
+        this.x = 0;
+        this.y = 0;
     }
 
     public Punkt(int x, int y) {
