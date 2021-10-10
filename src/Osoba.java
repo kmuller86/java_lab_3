@@ -23,7 +23,7 @@ public class Osoba {
         czyOsoba = true;
     }
 
-    public int wyliczPieniadze() {
+    protected int wyliczPieniadze() {
         return this.pieniadze;
     }
 

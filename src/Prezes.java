@@ -1,5 +1,6 @@
 public class Prezes extends Kierownik {
-    int przychod;
+
+    protected int przychod;
 
     /* Konstruktory */
     public Prezes() {
@@ -27,7 +28,7 @@ public class Prezes extends Kierownik {
 
     /* Metoda którą nadpisujemy z klasy nadrzędnej i wykorzystujemy jej wartość za pomocą operatora super */
     @Override
-    public int wyliczPieniadze() {
+    protected int wyliczPieniadze() {
         return super.wyliczPieniadze() + przychod;
     }
 

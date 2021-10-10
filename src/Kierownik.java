@@ -1,7 +1,7 @@
 public class Kierownik extends Osoba {
     /* pola klasy Kierownik:
      * posiada pole "premia" oraz wszystkie pola  */
-    int premia;
+    protected int premia;
 
     /* Konstruktory */
     public Kierownik() {
@@ -20,7 +20,7 @@ public class Kierownik extends Osoba {
 
     /* Metoda którą nadpisujemy z klasy nadrzędnej i wykorzystujemy jej wartość za pomocą operatora super */
     @Override
-    public int wyliczPieniadze() {
+    protected int wyliczPieniadze() {
         return super.wyliczPieniadze() + premia;
     }
 
