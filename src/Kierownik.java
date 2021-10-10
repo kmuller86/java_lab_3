@@ -3,6 +3,7 @@ public class Kierownik extends Osoba {
      * posiada pole "premia" oraz wszystkie pola  */
     int premia;
 
+    /* Konstruktory */
     public Kierownik() {
         super();
         this.premia = 0;
@@ -17,6 +18,7 @@ public class Kierownik extends Osoba {
         this.premia = premia;
     }
 
+    /* Metoda którą nadpisujemy z klasy nadrzędnej i wykorzystujemy jej wartość za pomocą operatora super */
     @Override
     public int wyliczPieniadze() {
         return super.wyliczPieniadze() + premia;
@@ -24,8 +26,8 @@ public class Kierownik extends Osoba {
 
     /* Metoda toString() za pomocą której będziemy wyświetlać zawartość klas */
     /* prosze odkomentowac tą metodę i zakomentować drugą metodę toString
-    * można przetestować, że nie mamy dostępu do zmiennej prywatnej czyOsoba, mimo to
-    * możemy nią operować jeśli stworzymy gettery i settery */
+     * można przetestować, że nie mamy dostępu do zmiennej prywatnej czyOsoba, mimo to
+     * możemy nią operować jeśli stworzymy gettery i settery */
 /*    @Override
     public String toString() {
         return "Kierownik: {" +
@@ -40,7 +42,7 @@ public class Kierownik extends Osoba {
     @Override
     public String toString() {
         return "Kierownik: {" +
-                super.toString() +
+                super.toString() + // użycie wartości metody toString z klasy nadrzędnej
                 ", premia=" + premia +
                 '}';
     }

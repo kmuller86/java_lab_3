@@ -1,6 +1,7 @@
 public class Prezes extends Kierownik {
     int przychod;
 
+    /* Konstruktory */
     public Prezes() {
         super();
         this.przychod = 0;
@@ -24,6 +25,7 @@ public class Prezes extends Kierownik {
         this.przychod = przychod;
     }
 
+    /* Metoda którą nadpisujemy z klasy nadrzędnej i wykorzystujemy jej wartość za pomocą operatora super */
     @Override
     public int wyliczPieniadze() {
         return super.wyliczPieniadze() + przychod;
