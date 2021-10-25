@@ -35,3 +35,4 @@ enum WielkoscEnum {
         wielkosc = czyDuzy;
     }
 }
+
