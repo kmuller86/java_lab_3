@@ -44,3 +44,4 @@ class Pojazd {
 enum KolorEnum {
     CZERMONY, ZIELONY, NIEBIESKI
 }
+
