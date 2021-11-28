@@ -16,7 +16,6 @@ public class Osoba {
     }
 
     public Osoba(String imie, String nazwisko, int pieniadze) {
-        super();
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.pieniadze = pieniadze;
